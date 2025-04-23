@@ -75,7 +75,7 @@ class Game {
 		document.querySelector('.status__loss').textContent = this.losses;
 	}
 
-	resetGame() {
+	resetGame() { 
 		this.wins = 0;
 		this.losses = 0;
 		this.updateScore();
